@@ -2,23 +2,13 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords",
-      "brokenLocator": "//input[@id\u003d\u0027nav-bb-search\u0027]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//input",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
-    },
-    {
-      "approved": true,
       "testObjectId": "Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  sony alpha a7 iii/span_a7 III (ILCEM3KB) Full-frame Mirrorles_d5ddf0",
       "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[3]/div/div/span/div/div/div/div[2]/div/div/div/h2/a/span",
       "brokenLocatorMethod": "XPATH",
       "proposedLocator": "//span[(text() \u003d \u0027a7 III (ILCEM3K/B) Full-frame Mirrorless Interchangeable-Lens Camera with 28-70mm Lens with 3-Inch LCD, Black\u0027 or . \u003d \u0027a7 III (ILCEM3K/B) Full-frame Mirrorless Interchangeable-Lens Camera with 28-70mm Lens with 3-Inch LCD, Black\u0027)]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  sony alpha a7 iii/span_a7 III (ILCEM3KB) Full-frame Mirrorles_d5ddf0_customAttributes.png"
+      "pathToScreenshot": "Reports/20240130_195329/Amazon_Test_Suite/20240130_195329/Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  sony alpha a7 iii/span_a7 III (ILCEM3KB) Full-frame Mirrorles_d5ddf0_customAttributes.png"
     }
   ]
 }

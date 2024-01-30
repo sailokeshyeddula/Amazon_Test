@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test_Suite,Chrome 120.0.0.0,Functional test cases test suite,,2024-01-30 19:53:32,2024-01-30 19:56:42,3m - 9.258s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_001,Chrome 120.0.0.0,,,2024-01-30 19:53:33,2024-01-30 19:53:52,19.611s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-30 19:53:33,2024-01-30 19:53:34,1.449s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,2024-01-30 19:53:34,2024-01-30 19:53:36,1.735s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com/input_field-keywords""), ""FLTECK"")",Chrome 120.0.0.0,,,2024-01-30 19:53:36,2024-01-30 19:53:37,0.693s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,2024-01-30 19:53:37,2024-01-30 19:53:37,0.586s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 120.0.0.0,,,2024-01-30 19:53:37,2024-01-30 19:53:47,10.185s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code"")",Chrome 120.0.0.0,,,2024-01-30 19:53:47,2024-01-30 19:53:48,0.835s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,2024-01-30 19:53:48,2024-01-30 19:53:52,3.684s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-30 19:53:52,2024-01-30 19:53:52,0.204s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_002,Chrome 120.0.0.0,,,2024-01-30 19:53:52,2024-01-30 19:54:11,18.717s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-30 19:53:52,2024-01-30 19:53:53,0.738s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,2024-01-30 19:53:53,2024-01-30 19:53:54,1.108s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com/input_field-keywords""), ""CMNPTF"")",Chrome 120.0.0.0,,,2024-01-30 19:53:54,2024-01-30 19:53:55,0.637s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com/button_Continue shopping""))",Chrome 120.0.0.0,,,2024-01-30 19:53:55,2024-01-30 19:53:55,0.635s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,2024-01-30 19:53:55,2024-01-30 19:54:06,10.989s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/input_email""), ""lokeshsai674@gmail.com"")",Chrome 120.0.0.0,,,2024-01-30 19:54:06,2024-01-30 19:54:08,1.609s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,2024-01-30 19:54:08,2024-01-30 19:54:09,1.152s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/input_password""), ""Kil7TJn2SLijfPVlUCkevA=="")",Chrome 120.0.0.0,,,2024-01-30 19:54:09,2024-01-30 19:54:11,1.438s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_002_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,2024-01-30 19:54:11,2024-01-30 19:54:11,0.336s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_003,Chrome 120.0.0.0,,,2024-01-30 19:54:11,2024-01-30 19:55:21,1m - 9.790s,PASSED
+"callTestCase(findTestCase(""TC_Amazon_Home_002""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-30 19:54:11,2024-01-30 19:54:30,18.568s,PASSED
+"navigateToUrl(""https://www.amazon.com/?ref_=nav_ya_signin"")",Chrome 120.0.0.0,,,2024-01-30 19:54:30,2024-01-30 19:54:33,3.495s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""sony al"")",Chrome 120.0.0.0,,,2024-01-30 19:54:33,2024-01-30 19:54:35,1.518s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com. Spend less. Smile more/span_pha a7 iii""))",Chrome 120.0.0.0,,,2024-01-30 19:54:35,2024-01-30 19:54:39,4.413s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  sony alpha a7 iii/span_a7 III (ILCEM3KB) Full-frame Mirrorles_d5ddf0""))",Chrome 120.0.0.0,,,2024-01-30 19:54:39,2024-01-30 19:55:16,36.937s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  Sony a7 III (ILCEM3KB) Ful_4e29c8/input_submit.add-to-registry.wishlist""))",Chrome 120.0.0.0,,,2024-01-30 19:55:16,2024-01-30 19:55:18,1.612s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  Sony a7 III (ILCEM3KB) Ful_4e29c8/a_View Your List""))",Chrome 120.0.0.0,,,2024-01-30 19:55:18,2024-01-30 19:55:20,2.888s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-30 19:55:20,2024-01-30 19:55:21,0.262s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_004,Chrome 120.0.0.0,,,2024-01-30 19:55:21,2024-01-30 19:55:59,38.513s,PASSED
+"callTestCase(findTestCase(""TC_Amazon_Home_002""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-30 19:55:21,2024-01-30 19:55:40,19.132s,PASSED
+"navigateToUrl(""https://www.amazon.com/?ref_=nav_ya_signin"")",Chrome 120.0.0.0,,,2024-01-30 19:55:40,2024-01-30 19:55:44,3.923s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Sony alpha"")",Chrome 120.0.0.0,,,2024-01-30 19:55:44,2024-01-30 19:55:45,1.282s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com. Spend less. Smile more/div_sony alpha 7 iii""))",Chrome 120.0.0.0,,,2024-01-30 19:55:45,2024-01-30 19:55:49,4.223s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sony alpha 7 iii/button_Add to Cart""))",Chrome 120.0.0.0,,,2024-01-30 19:55:49,2024-01-30 19:55:51,1.218s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sony alpha 7 iii/a_1                                        _aa7e84""))",Chrome 120.0.0.0,,,2024-01-30 19:55:51,2024-01-30 19:55:56,5.475s,PASSED
+"rightClick(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/div_Sony Alpha a7 III 24.2MP Full Frame Mir_fd4d59""))",Chrome 120.0.0.0,,,2024-01-30 19:55:56,2024-01-30 19:55:57,1.426s,PASSED
+"rightClick(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/ul_Sony Alpha a7 III 24.2MP Full Frame Mirr_97b5a6""))",Chrome 120.0.0.0,,,2024-01-30 19:55:57,2024-01-30 19:55:58,0.619s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/h2_Your Items""))",Chrome 120.0.0.0,,,2024-01-30 19:55:58,2024-01-30 19:55:58,0.321s,PASSED
+"rightClick(findTestObject(""Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com Shopping Cart/div_Sony Alpha a7 III 24.2MP Full Frame Mir_94049c""))",Chrome 120.0.0.0,,,2024-01-30 19:55:58,2024-01-30 19:55:59,0.628s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-30 19:55:59,2024-01-30 19:55:59,0.190s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Home_005,Chrome 120.0.0.0,,,2024-01-30 19:55:59,2024-01-30 19:56:42,42.414s,PASSED
+"callTestCase(findTestCase(""TC_Amazon_Home_002""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-30 19:55:59,2024-01-30 19:56:20,20.815s,PASSED
+"navigateToUrl(""https://www.amazon.com/?ref_=nav_ya_signin"")",Chrome 120.0.0.0,,,2024-01-30 19:56:20,2024-01-30 19:56:24,3.432s,PASSED
+"setText(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Gimbal"")",Chrome 120.0.0.0,,,2024-01-30 19:56:24,2024-01-30 19:56:25,1.058s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com. Spend less. Smile more/span_stabilizer for camera""))",Chrome 120.0.0.0,,,2024-01-30 19:56:25,2024-01-30 19:56:29,4.300s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  gimbal stabilizer for camera/span_RS 3, 3-Axis Gimbal for DSLR and Mirro_ad700c""))",Chrome 120.0.0.0,,,2024-01-30 19:56:29,2024-01-30 19:56:35,6.101s,PASSED
+"click(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  DJI RS 3, 3-Axis Gimbal fo_e25f7a/span_929 ratings""))",Chrome 120.0.0.0,,,2024-01-30 19:56:35,2024-01-30 19:56:41,5.585s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  DJI RS 3, 3-Axis Gimbal fo_e25f7a/h3_Top reviews from the United States""), ""Top reviews from the United States"")",Chrome 120.0.0.0,,,2024-01-30 19:56:41,2024-01-30 19:56:41,0.761s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-30 19:56:41,2024-01-30 19:56:42,0.297s,PASSED
