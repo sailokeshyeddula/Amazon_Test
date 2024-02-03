@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_Amazon_Home_002'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('TC_Amazon_Home_002'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://www.amazon.com/?ref_=nav_ya_signin')
 
@@ -32,5 +32,5 @@ WebUI.click(findTestObject('Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.
 
 WebUI.click(findTestObject('Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  Sony a7 III (ILCEM3KB) Ful_4e29c8/a_View Your List'))
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 

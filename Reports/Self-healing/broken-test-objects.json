@@ -19,6 +19,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_003_OR/Page_Amazon.com  sony alpha a7 iii/span_a7 III (ILCEM3KB) Full-frame Mirrorles_d5ddf0_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com/a_All",
+      "brokenLocator": "//a[@id\u003d\u0027nav-hamburger-menu\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[4]/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/input_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sony alpha 7 iii/button_Add to Cart",
+      "brokenLocator": "//button[@id\u003d\u0027a-autoid-3-announce\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[3]/span/div/div/form/span/div/div/span/span/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sony alpha 7 iii/button_Add to Cart_position.png"
     }
   ]
 }

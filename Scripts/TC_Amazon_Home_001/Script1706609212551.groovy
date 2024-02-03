@@ -21,10 +21,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.setText(findTestObject('Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com/input_field-keywords'), 'FLTECK')
-
-WebUI.click(findTestObject('Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com/button_Continue shopping'))
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/TC_Amazon_Home_001_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
     'search-alias=stripbooks-intl-ship', true)
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TL_Amazon_wishlist_testsuite" time="49.401" tests="0" failures="0" errors="0">
+   <testsuite name="TL_Amazon_wishlist_testsuite" tests="0" failures="0" errors="0" time="49.401" skipped="0" timestamp="01-02-2024T19:50:10" hostname="yeddula sai lokesh - LAPTOP-66KHDLCV" id="Test Suites/Amazon_TL_Testsuite/TL_Amazon_wishlist_testsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\yeddula sai lokesh\\git\\Amazon_Test\\Reports\\20240201_195002\\Amazon_TL_Testsuite\\TL_Amazon_wishlist_testsuite\\20240201_195007"/>
+         <property name="logFiles" value="C:\\Users\\yeddula sai lokesh\\git\\Amazon_Test\\Reports\\20240201_195002\\Amazon_TL_Testsuite\\TL_Amazon_wishlist_testsuite\\20240201_195007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yeddula sai lokesh - LAPTOP-66KHDLCV"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="f7f24c6320dcf4e7970cdbfe4ce2ba2f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <system-out><![CDATA[01-02-2024T19:50:10 - [TEST_SUITE][PASSED] - TL_Amazon_wishlist_testsuite: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

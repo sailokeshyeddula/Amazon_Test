@@ -31,16 +31,22 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 /**
  * Setup test suite environment.
  */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
+@SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() {
+	WebUI.openBrowser('')
+	
+	WebUI.navigateToUrl('https://www.amazon.com/')
+	
+	WebUI.click(findTestObject('Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 	// Put your code here.
 }
 
 /**
  * Clean test suites environment.
  */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+@TearDown(skipped = false) // Please change skipped to be false to activate this method.
 def tearDown() {
+	WebUI.closeBrowser()
 	// Put your code here.
 }
 

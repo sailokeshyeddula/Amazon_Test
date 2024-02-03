@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_Amazon_Home_002'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('TC_Amazon_Home_002'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://www.amazon.com/?ref_=nav_ya_signin')
 
@@ -33,5 +33,5 @@ WebUI.click(findTestObject('Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.
 WebUI.verifyElementText(findTestObject('Object Repository/TC_Amazon_Home_005_OR/Page_Amazon.com  DJI RS 3, 3-Axis Gimbal fo_e25f7a/h3_Top reviews from the United States'), 
     'Top reviews from the United States')
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_wishlist_testsuite,Chrome 120.0.0.0,,,01-02-2024 19:51:46,01-02-2024 19:52:28,42.196s,PASSED
+,,,,,,,
+Test Cases/TestCase Using Test Listeners/TC_TL_Amazon_wishlist,Chrome 120.0.0.0,,,01-02-2024 19:52:02,01-02-2024 19:52:28,26.250s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,01-02-2024 19:52:02,01-02-2024 19:52:06,4.667s,PASSED
+"setText(findTestObject(""Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""da vinci code book"")",Chrome 120.0.0.0,,,01-02-2024 19:52:06,01-02-2024 19:52:10,3.324s,PASSED
+"click(findTestObject(""Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,01-02-2024 19:52:10,01-02-2024 19:52:14,4.502s,PASSED
+"click(findTestObject(""Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com  da vinci code book/span_The Da Vinci Code (Robert Langdon)""))",Chrome 120.0.0.0,,,01-02-2024 19:52:14,01-02-2024 19:52:20,5.672s,PASSED
+"click(findTestObject(""Object Repository/TC_TL_Amazon_wishlist/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/input_submit.add-to-registry.wishlist""))",Chrome 120.0.0.0,,,01-02-2024 19:52:20,01-02-2024 19:52:21,1.058s,PASSED
+"click(findTestObject(""Object Repository/TC_TL_Amazon_wishlist/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List""))",Chrome 120.0.0.0,,,01-02-2024 19:52:21,01-02-2024 19:52:24,3.405s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,01-02-2024 19:52:24,01-02-2024 19:52:28,3.548s,PASSED

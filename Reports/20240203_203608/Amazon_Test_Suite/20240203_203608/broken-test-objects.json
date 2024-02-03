@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sony alpha 7 iii/button_Add to Cart",
+      "brokenLocator": "//button[@id\u003d\u0027a-autoid-3-announce\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[3]/span/div/div/form/span/div/div/span/span/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240203_203608/Amazon_Test_Suite/20240203_203608/Object Repository/TC_Amazon_Home_004_OR/Page_Amazon.com  sony alpha 7 iii/button_Add to Cart_position.png"
+    }
+  ]
+}

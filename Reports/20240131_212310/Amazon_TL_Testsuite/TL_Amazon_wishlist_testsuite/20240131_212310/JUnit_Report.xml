@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TL_Amazon_wishlist_testsuite" time="54.596" tests="1" failures="0" errors="0">
+   <testsuite name="TL_Amazon_wishlist_testsuite" tests="1" failures="0" errors="0" time="54.596" skipped="0" timestamp="2024-01-31 21:23:15" hostname="yeddula sai lokesh - LAPTOP-66KHDLCV" id="Test Suites/Amazon_TL_Testsuite/TL_Amazon_wishlist_testsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\yeddula sai lokesh\\git\\Amazon_Test\\Reports\\20240131_212310\\Amazon_TL_Testsuite\\TL_Amazon_wishlist_testsuite\\20240131_212310"/>
+         <property name="logFiles" value="C:\\Users\\yeddula sai lokesh\\git\\Amazon_Test\\Reports\\20240131_212310\\Amazon_TL_Testsuite\\TL_Amazon_wishlist_testsuite\\20240131_212310\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yeddula sai lokesh - LAPTOP-66KHDLCV"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="374110a1435f95585397fecade6e44b7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TestCase Using Test Listeners/TC_TL_Amazon_wishlist" time="32.162" classname="Test Cases/TestCase Using Test Listeners/TC_TL_Amazon_wishlist" status="PASSED">
+         <system-out><![CDATA[2024-01-31 21:23:38 - [TEST_CASE][PASSED] - Test Cases/TestCase Using Test Listeners/TC_TL_Amazon_wishlist: Test Cases/TestCase Using Test Listeners/TC_TL_Amazon_wishlist
+
+2024-01-31 21:23:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+2024-01-31 21:23:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/input_email"), "lokeshsai674@gmail.com"): Text 'lokeshsai674@gmail.com' is set on object 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/input_email'
+
+2024-01-31 21:23:39 - [MESSAGE][PASSED] - Text 'lokeshsai674@gmail.com' is set on object 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/input_email'
+
+2024-01-31 21:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+2024-01-31 21:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+2024-01-31 21:23:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/input_password"), "Kil7TJn2SLijfPVlUCkevA=="): Text ****** has been set on object 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/input_password'
+
+2024-01-31 21:23:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/input_password'
+
+2024-01-31 21:23:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+2024-01-31 21:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+2024-01-31 21:23:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "da vinci code book"): Text 'da vinci code book' is set on object 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+2024-01-31 21:23:48 - [MESSAGE][PASSED] - Text 'da vinci code book' is set on object 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+2024-01-31 21:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+2024-01-31 21:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+2024-01-31 21:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com  da vinci code book/span_The Da Vinci Code (Robert Langdon)")): Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com  da vinci code book/span_The Da Vinci Code (Robert Langdon)' is clicked on
+
+2024-01-31 21:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com  da vinci code book/span_The Da Vinci Code (Robert Langdon)' is clicked on
+
+2024-01-31 21:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/input_submit.add-to-registry.wishlist")): Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/input_submit.add-to-registry.wishlist' is clicked on
+
+2024-01-31 21:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/input_submit.add-to-registry.wishlist' is clicked on
+
+2024-01-31 21:24:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List")): Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List' is clicked on
+
+2024-01-31 21:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_The Da Vinci Code (Robert Langdon) Bro_e0923b/a_View Your List' is clicked on
+
+2024-01-31 21:24:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com/a_Sign Out' is clicked on
+
+2024-01-31 21:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com/a_All")): Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com/a_All' is clicked on
+
+2024-01-31 21:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com/a_All' is clicked on
+
+2024-01-31 21:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com/a_Sign Out")): Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com/a_Sign Out' is clicked on
+
+2024-01-31 21:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_TL_Amazon_wishlist/Page_Amazon.com/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-31 21:23:15 - [TEST_SUITE][PASSED] - TL_Amazon_wishlist_testsuite: Test Cases/TestCase Using Test Listeners/TC_TL_Amazon_wishlist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
